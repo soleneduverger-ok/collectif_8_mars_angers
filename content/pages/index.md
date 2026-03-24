@@ -203,7 +203,6 @@ sections:
           - pr-16
       subtitle:
         textAlign: center
-    type: GenericSection
   - title: Divider
     colors: bg-dark-fg-light
     styles:
