@@ -1,0 +1,50 @@
+{
+    "logo": {
+        "url": "/images/logo-dark.svg",
+        "altText": "Collectif 8 mars 49",
+        "styles": {
+            "self": {
+                "margin": ["mr-3"]
+            }
+        },
+        "type": "ImageBlock"
+    },
+    "primaryLinks": [
+        {
+            "label": "Le collectif",
+            "url": "/#collectif",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Associations",
+            "url": "/#associations",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Agenda",
+            "url": "/#agenda",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Contact",
+            "url": "/#contact",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        }
+    ],
+    "secondaryLinks": [],
+    "variant": "logo-left-primary-nav-centered",
+    "colors": "bg-dark-fg-light",
+    "type": "Header"
+}

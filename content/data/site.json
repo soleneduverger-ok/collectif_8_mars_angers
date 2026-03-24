@@ -1,0 +1,8 @@
+{
+    "favicon": "/images/favicon.svg",
+    "footer": "content/data/footer.json",
+    "titleSuffix": "Collectif 8 mars 49",
+    "defaultSocialImage": "/images/main-hero.jpg",
+    "type": "Config",
+    "header": "content/data/header.json"
+}

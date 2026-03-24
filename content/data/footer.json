@@ -1,0 +1,74 @@
+{
+    "logo": {
+        "url": "/images/logo-white.svg",
+        "altText": "Collectif 8 mars 49",
+        "type": "ImageBlock"
+    },
+    "text": "Collectif féministe · Angers · Maine-et-Loire\nContre les violences sexistes et sexuelles — Pour l'égalité",
+    "primaryLinks": {
+        "title": "Navigation",
+        "links": [
+            {
+                "label": "Le collectif",
+                "url": "/#collectif",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Associations",
+                "url": "/#associations",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Agenda",
+                "url": "/#agenda",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            }
+        ],
+        "type": "FooterLinksGroup"
+    },
+    "secondaryLinks": {
+        "title": "Associations membres",
+        "links": [
+            {
+                "label": "Planning Familial 49",
+                "url": "/",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "NousToutes 49",
+                "url": "/",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Collages Féministes",
+                "url": "/",
+                "style": "secondary",
+                "type": "Link"
+            }
+        ],
+        "type": "FooterLinksGroup"
+    },
+    "socialLinks": [
+        {
+            "altText": "Email",
+            "url": "mailto:collectif8mars49@example.org",
+            "icon": "mail",
+            "type": "Social"
+        }
+    ],
+    "legalLinks": [],
+    "copyrightText": "© 2026 Collectif 8 mars 49 — Angers\n",
+    "colors": "bg-dark-fg-light",
+    "type": "Footer"
+}
