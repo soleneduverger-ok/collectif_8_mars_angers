@@ -51,6 +51,16 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+  - type: DividerSection
+    title: Divider
+    colors: bg-dark-fg-light
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
   - type: FeaturedItemsSection
     title:
       text: Le collectif en chiffres
@@ -89,7 +99,8 @@ sections:
           styles:
             self:
               borderRadius: x-large
-      - title: '600+'
+      - type: FeaturedItem
+        title: '600+'
         subtitle: Manifestant·es
         text: >-
           Plus de 600 personnes ont défilé dans les rues d'Angers en novembre
@@ -112,8 +123,8 @@ sections:
             flexDirection: row
             textAlign: left
             justifyContent: center
-        type: FeaturedItem
-      - title: '49'
+      - type: FeaturedItem
+        title: '49'
         subtitle: Maine-et-Loire
         text: >-
           Un collectif ancré dans le territoire angevin, mobilisé toute
@@ -134,7 +145,6 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
-        type: FeaturedItem
     actions: []
     badge:
       label: ''
@@ -156,7 +166,8 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - title: Divider
+  - type: DividerSection
+    title: Divider
     colors: bg-dark-fg-light
     styles:
       self:
@@ -165,7 +176,6 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-    type: DividerSection
   - type: GenericSection
     title:
       text: Notre manifeste
@@ -203,7 +213,8 @@ sections:
           - pr-16
       subtitle:
         textAlign: center
-  - title: Divider
+  - type: DividerSection
+    title: Divider
     colors: bg-dark-fg-light
     styles:
       self:
@@ -212,8 +223,8 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-    type: DividerSection
-  - title:
+  - type: FeaturedItemsSection
+    title:
       text: Nos organisations
       color: text-light
       styles:
@@ -222,8 +233,9 @@ sections:
       type: TitleBlock
     subtitle: Associations, collectifs et syndicats uni·es par un même combat
     items:
-      - title: Planning Familial 49
-        tagline: ❤️‍🩹
+      - type: FeaturedItem
+        title: Planning Familial 49
+        tagline: "❤️‍🩹"
         subtitle: Santé sexuelle
         text: >
           Accompagnement en santé sexuelle, contraception, IVG et lutte contre les violences.
@@ -237,9 +249,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: Collages Féministes
-        tagline: ✊
+      - type: FeaturedItem
+        title: Collages Féministes
+        tagline: "✊"
         subtitle: Actions de rue
         text: >
           Actions de rue et collages pour dénoncer les violences sexistes et sexuelles.
@@ -253,9 +265,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: Les Angegouines
-        tagline: 🏳️‍🌈
+      - type: FeaturedItem
+        title: Les Angegouines
+        tagline: "🏳️‍🌈"
         subtitle: Collectif lesbien féministe
         text: >
           Collectif lesbien féministe angevin pour la visibilité et les droits des lesbiennes.
@@ -269,9 +281,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: AIDES
-        tagline: 🎗️
+      - type: FeaturedItem
+        title: AIDES
+        tagline: "🎗️"
         subtitle: VIH / Hépatites
         text: >
           Lutte contre le VIH/sida et les hépatites, pour les droits des personnes séropositives.
@@ -285,9 +297,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: ATTAC 49
-        tagline: 🌍
+      - type: FeaturedItem
+        title: ATTAC 49
+        tagline: "🌍"
         subtitle: Justice fiscale
         text: >
           Association pour la taxation des transactions financières et l'action citoyenne.
@@ -301,9 +313,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: Corps à Cœur
-        tagline: 💜
+      - type: FeaturedItem
+        title: "Corps à Cœur"
+        tagline: "💜"
         subtitle: Soutien aux victimes
         text: >
           Soutien et accompagnement des femmes victimes de violences.
@@ -317,9 +329,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: Solidaires
-        tagline: ⚡
+      - type: FeaturedItem
+        title: Solidaires
+        tagline: "⚡"
         subtitle: Syndicat
         text: >
           Union syndicale engagée pour les droits des travailleur·euses et l'égalité.
@@ -333,9 +345,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: FSU
-        tagline: 📚
+      - type: FeaturedItem
+        title: FSU
+        tagline: "📚"
         subtitle: Syndicat éducation
         text: >
           Fédération syndicale unitaire, engagée pour l'égalité femmes-hommes dans l'éducation et les services publics.
@@ -349,9 +361,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
-      - title: NousToutes 49
-        tagline: 🟣
+      - type: FeaturedItem
+        title: NousToutes 49
+        tagline: "🟣"
         subtitle: Violences sexistes
         text: >
           Collectif féministe contre les violences sexistes et sexuelles. Marches, formations, actions.
@@ -365,7 +377,6 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-        type: FeaturedItem
     variant: three-col-grid
     colors: bg-dark-fg-light
     styles:
@@ -378,9 +389,9 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: FeaturedItemsSection
     elementId: associations
-  - title: Divider
+  - type: DividerSection
+    title: Divider
     colors: bg-dark-fg-light
     styles:
       self:
@@ -389,7 +400,6 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-    type: DividerSection
   - type: FeaturedItemsSection
     title:
       text: Agenda
@@ -401,7 +411,7 @@ sections:
     subtitle: Les prochains rendez-vous du collectif
     items:
       - type: FeaturedItem
-        title: Soirée-spectacle féministe
+        title: "Soirée-spectacle féministe"
         tagline: 1er mars 2026
         subtitle: Centre Jean Vilar, La Roseraie, Angers
         text: >
@@ -418,7 +428,7 @@ sections:
             flexDirection: col
         actions: []
       - type: FeaturedItem
-        title: Journée internationale des droits des femmes
+        title: "Journée internationale des droits des femmes"
         tagline: 8 mars 2026
         subtitle: Place du Ralliement, Angers
         text: >
@@ -435,7 +445,7 @@ sections:
             flexDirection: col
         actions: []
       - type: FeaturedItem
-        title: Journée contre les violences faites aux femmes
+        title: "Journée contre les violences faites aux femmes"
         tagline: 25 novembre 2026
         subtitle: Palais de Justice, Angers
         text: >
@@ -464,7 +474,8 @@ sections:
       subtitle:
         textAlign: center
     elementId: agenda
-  - title: Divider
+  - type: DividerSection
+    title: Divider
     colors: bg-dark-fg-light
     styles:
       self:
@@ -473,8 +484,8 @@ sections:
           - pl-7
           - pb-7
           - pr-7
-    type: DividerSection
-  - title:
+  - type: GenericSection
+    title:
       text: Contactez-nous
       color: text-light
       type: TitleBlock
@@ -530,7 +541,6 @@ sections:
       color: text-primary
       type: Badge
     colors: bg-dark-fg-light
-    type: GenericSection
     elementId: contact
 seo:
   metaTitle: Collectif 8 mars 49 — Angers
